@@ -1,0 +1,188 @@
+*{ margin: 0;
+padding: 0;}
+
+#main1{
+    display: flex;
+  
+}
+#name{
+  position: relative;
+  left: -350px;
+  font-size: 2rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:  #F3525A;
+}
+#flexbox{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#form2{ height: 600px;
+
+}
+#submit{ margin-top: 50px;}
+#flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+#treks{height: 15rem;
+    font-size: 5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    color:#F3525A;
+    justify-content: center;
+    align-items: center;
+}
+#bold{ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+/* book your order */
+#button{ transition: all 1s;
+background-color: #F3525A;
+border: transparent; font-size: 1rem;}
+#button:hover{
+    background-color: rgb(240, 100, 12);
+   
+}
+/* footer */
+#foot {
+    height: 18rem;
+    width: 100%;
+    background-color: #152440;
+    color: #FFFFFF;
+  
+  }
+  
+  #footone {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -200px;
+    font-family: Open Sans, sans-serif;
+  
+  
+  }
+  
+  #quick {
+    margin-top: 40px;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  #ull {
+    list-style: none;
+    line-height: 1;
+  }
+  #ulll {
+    list-style: none;
+    line-height: 1;
+  }
+  #ullll {
+    list-style: none;
+    line-height: 1;
+  }
+  
+  
+  #arrow {
+    position: relative;
+    top: 18px;
+    color: #F3525A;
+    left: -25px;
+  
+  }
+  
+  #final {
+    display: flex;
+    line-height: 3;
+    height: 50px;
+    width: 150%;
+  
+  }
+  
+  #final li {
+    margin-left: 5px;
+  }
+  #final1 i{
+    transition: all 0.4s;
+  }
+  #final1 {
+    border-radius: 100%;
+    height: 50px;
+    width: 47%;
+    background-color: #F3525A;
+    margin-top: 10px;
+    transition:  1s;
+  
+  
+  }
+  #final1:hover{
+    background-color: rgb(246, 6, 6)
+  }
+  #final1 i:hover{
+    transform: scale(1.1)
+  }
+  
+  #footerlist {
+    font-size: 0.9rem;
+  }
+  #image{
+    height:600px; width:contain
+  }
+  
+  #twitter {
+    margin-top: 18px;
+    margin-left: 15px;
+    font-size: 1rem;      
+  }
+  /* responsive for mobile  */
+  @media  (max-width:430px) {
+    #name{
+    position: relative;
+    left: 1px;
+    font-size: 1.5rem;
+    }
+    #flex{
+      display: block;
+      
+    }
+    #image{
+      height: 400px;
+    }
+    #treks{
+      font-size: 1.4rem;
+      margin-left: 10px;
+    }
+    #form2{ height: 350px;
+
+    }
+    #button{
+      width: 200px;
+      margin-left: -39px;
+    }
+    #ull{
+      display: none;
+    }
+    #foot{
+      height: 150px;
+    }
+    #ulll{
+   margin-left: 50%;
+   
+    }
+    #ullll{
+    display: none;
+      
+       }
+  }
+ /* responsiove for second screen */
+ @media  (max-width:830px){
+#treks{
+  font-size: 2.6rem;
+}
+#name{
+  position: relative;
+  left: 1px;
+  font-size: 1.5rem;
+  }
+  #ull{display: none;}
+
+ }
